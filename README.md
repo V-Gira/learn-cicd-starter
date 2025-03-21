@@ -1,4 +1,4 @@
-![unit test coverage](https://github.com/V-Gira/learn-cicd-starter/actions/workflowsci.yml/badge.svg)
+![unit test coverage](https://github.com/V-Gira/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 

@@ -87,11 +87,11 @@ func main() {
 	}
 
 	v1Router.Get("/healthz", handlerReadiness)
-	
+
 	router.Mount("/v1", v1Router)
 	srv := &http.Server{
-		Addr:    ":" + port,
-		Handler: router,
+		Addr:              ":" + port,
+		Handler:           router,
 		ReadHeaderTimeout: 5 * time.Second,
 	}
 
